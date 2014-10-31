@@ -2,17 +2,14 @@ source 'https://rubygems.org'
 ruby   '2.1.3'
 
 gem 'rails',                   '4.2.0.beta2'
-gem 'sass'
-gem 'bourbon'
-gem 'neat'
-gem 'bitters'
-gem 'bower-rails',             '~> 0.9.1'
-gem 'uglifier',                '2.5.3'
-gem 'coffee-rails',            '4.0.1'
-gem 'jquery-rails',            '4.0.0.beta2'
 gem 'jbuilder',                '2.2.3'
 gem 'rails-html-sanitizer',    '1.0.1'
 gem 'sdoc',                    '0.4.0', group: :doc
+gem 'sass'
+gem 'sass-rails'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
